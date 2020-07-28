@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ .btn {
+    background: black;
+    border-color: green;
+    color: green;
+    margin: center;
+}
+
+
+.container {
+    position: relative;
+    top: 35px;
+    height: 550px;
+    background: linear-gradient(#070f28, #1d286b, #050213);
+    border-radius: 10px;
+}
+
+/*.login-form form input, .signup-form form input {
+    background: linear-gradient(#070f28, #1d286b, #050213); 
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: black;
+    border-bottom-color: linear-gradient(#070f28, #1d286b, #050213);
+    color: white;
+}*/
+
+.login-form form input, .signup-form form input {
+    background: linear-gradient(#070f28, #1d286b, #050213);
+    color: white;
+    border:black;
+}
+
+.login-form form input[type=email]:focus, .login-form form input[type=Password]:focus{
+    outline: none;      /* Remove default outline and use border or box-shadow */
+    box-shadow: 0 0 0 2px green; /* Full freedom. (works also with border-radius) */
+} 
+
+.signup-form form input {
+    background: linear-gradient(#070f28, #1d286b, #050213);
+    color: white;
+}
+
+.signup-form form input[type=email]:focus, .signup-form form input[type=Password]:focus{
+    outline: none;      /* Remove default outline and use border or box-shadow */
+    box-shadow: 0 0 0 2px green; /* Full freedom. (works also with border-radius) */
+} 
+
+.container > img {
+    max-width: 35%;
+    height: 25%;
+    position: relative;
+    top: 0;
+    left: 43%;
+}
